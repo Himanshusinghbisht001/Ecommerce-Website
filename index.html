@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce website</title>
-   <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -31,17 +31,38 @@
           <h1>Gadget Galaxy</h1>
           <nav class="navBar">
             <a class="navOption" href="#">HOME</a>
+            <a class="navOption" href="#">SHOP</a>
             <a class="navOption" href="#">ABOUT</a>
-            <a class="navOption" href="#">PRODUCT</a>
             <a class="navOption" href="#">CONTACT</a>
-            <a  class="navOption" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="navOption" href="#"
+              ><i class="fa-solid fa-cart-shopping"> <span>0</span></i
+            ></a>
           </nav>
         </div>
       </div>
     </header>
 
     <!-- ? Main Page -->
-    <div class="mainPage"></div>
+    <div class="mainPage">
+      <div class="mainPageContainer">
+        <div class="mainLeft">
+          <div class="mainLeftHeading">
+            <p>Explore the Latest in <span style="color: #d6ff41;"> Tech </span>Industries</p>
+            <h1>Your Destination</h1>
+            <h1>for Cutting-Edge</h1>
+            <h1>Gadgets!</h1>
+          </div>
+
+          <a class="shopPage" href="#">SHOP NOW <i class="fa-solid fa-arrow-trend-up"></i></a>
+        </div>
+        <div class="mainRight">
+          <img src="./public/download__1_-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js" integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
   </body>
 </html>
