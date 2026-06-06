@@ -1,5 +1,3 @@
-// gsap.registerPlugin(ScrollTrigger);
-
 const t1 = gsap.timeline();
 
 t1.from(".subheader p", {
@@ -51,6 +49,9 @@ gsap.from(".mainRight img", {
   delay: 2,
   stagger: 0.3,
 });
+
+
+
 
 // ! import data from api , json  and js :-
 import products from "./api/products.json";

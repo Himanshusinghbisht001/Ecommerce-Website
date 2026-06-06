@@ -621,3 +621,65 @@ body {
 .addtocartBtn:hover{
   background-color: #d6ff41;
 }
+
+/* ? PAGE 3 */
+.page3{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.page3TextCotainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page3TextCotainer h1{
+  margin-top: 5rem;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #d6ff41;
+}
+
+.FacelitiesContainer{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.facelitiesBox1{
+  width: 250px;
+  height: 200px;
+  background-color: azure;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.facelitiesBox1 h3{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.facelitiesBox1 p{
+  font-size: 17px;
+}
+
+#page3Icon{
+  color: royalblue;
+  font-size: 60px;
+  margin: 2rem 4rem;
+ 
+}
