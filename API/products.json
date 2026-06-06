@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro",
+    "category": "Smartphone",
+    "brand": "Apple",
+    "price": 129999,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/8a/5c/b4/8a5cb4b5d0a3b88a6cd04976aab38484.jpg",
+    "description": "Premium smartphone with A17 Pro chip and advanced camera system."
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S25 Ultra",
+    "category": "Smartphone",
+    "brand": "Samsung",
+    "price": 124999,
+    "stock": 12,
+    "image": "https://i.pinimg.com/736x/d8/e6/9f/d8e69f9b36b7a2cf0a3add6d0d83498a.jpg",
+    "description": "Flagship Android smartphone with powerful performance and S Pen support."
+  },
+  {
+    "id": 3,
+    "name": "MacBook Air M3",
+    "category": "Laptop",
+    "brand": "Apple",
+    "price": 114999,
+    "stock": 8,
+    "image": "https://i.pinimg.com/736x/cd/d1/d7/cdd1d70bd8c045dd318b8cc92fc15c77.jpg",
+    "description": "Lightweight laptop featuring Apple's M3 chip and long battery life."
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15",
+    "category": "Laptop",
+    "brand": "Dell",
+    "price": 139999,
+    "stock": 6,
+    "image": "https://i.pinimg.com/1200x/96/b8/19/96b819a2057454cd507198c2a60557e3.jpg",
+    "description": "High-performance laptop with stunning display and premium design."
+  },
+  {
+    "id": 5,
+    "name": "Sony WH-1000XM5",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 29999,
+    "stock": 20,
+    "image": "https://i.pinimg.com/236x/10/fb/bb/10fbbbbe531c5e4f315489b68a8deccf.jpg",
+    "description": "Wireless noise-canceling headphones with exceptional sound quality."
+  },
+  {
+    "id": 6,
+    "name": "Apple Watch Series 10",
+    "category": "Smartwatch",
+    "brand": "Apple",
+    "price": 49999,
+    "stock": 18,
+    "image": "https://i.pinimg.com/1200x/9a/36/03/9a3603193e6add051ae2baf504a723bc.jpg",
+    "description": "Advanced smartwatch with health tracking and fitness features."
+  },
+  {
+    "id": 7,
+    "name": "iPad Air M2",
+    "category": "Tablet",
+    "brand": "Apple",
+    "price": 69999,
+    "stock": 10,
+    "image": "https://i.pinimg.com/1200x/85/61/7a/85617aa3666db27eff5d38edeb03af9b.jpg",
+    "description": "Powerful tablet with M2 chip, ideal for productivity and entertainment."
+  },
+  {
+    "id": 8,
+    "name": "Canon EOS R10",
+    "category": "Camera",
+    "brand": "Canon",
+    "price": 84999,
+    "stock": 7,
+    "image": "https://i.pinimg.com/736x/12/d1/f5/12d1f54372a9bc6829c7fb2cada3de47.jpg",
+    "description": "Mirrorless camera offering high-quality photos and 4K video recording."
+  },
+  {
+    "id": 9,
+    "name": "JBL Flip 6",
+    "category": "Bluetooth Speaker",
+    "brand": "JBL",
+    "price": 11999,
+    "stock": 25,
+    "image": "https://i.pinimg.com/1200x/ce/8f/98/ce8f98445c7e7ef35f6aa17a5de17c50.jpg",
+    "description": "Portable Bluetooth speaker with powerful sound and waterproof design."
+  }
+]

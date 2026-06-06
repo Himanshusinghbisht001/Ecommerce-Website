@@ -80,41 +80,42 @@
 
       <!-- ? Product Template -->
       <template class="productTemplate">
-      <div class="productCart">
-        <p class="productName"></p>
-        <div class="imageContainer"></div>
-        <div class="productInformation">
-          <h2></h2>
-          <div class="productStar">
-            <i id="star" class="fa-solid fa-star"></i>
-            <i id="star" class="fa-solid fa-star"></i>
-            <i id="star" class="fa-solid fa-star"></i>
-            <i id="star" class="fa-solid fa-star"></i>
-            <i id="star" class="fa-solid fa-star"></i>
+        <div class="productCart">
+          <p class="productCategory"></p>
+          <div class="imageContainer">
+            <img class="productImage" src="" alt="">
           </div>
-          <p>
-            Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD,
-            and a 14-inch FHD display.
-          </p>
-        </div>
-        <div class="productPrice">
-          <p class="orignalPrice"></p>
-          <p class="selaingPrice" style="text-decoration: line-through;"></p>
-        </div>
-        <div class="quantityStock">
-          <p>Total Stocks Available : <span class="availableStock">10</span></p>
-          <div class="quantitySec">
-            <p>Quantity(Pieces)</p>
-            <div class="priceButton">
-              <button class="add">+</button>
-              <p class="price">0</p>
-              <button class="subtract">-</button>
+          <div class="productInformation">
+            <h2 class="productName"></h2>
+            <div class="productStar">
+              <i id="star" class="fa-solid fa-star"></i>
+              <i id="star" class="fa-solid fa-star"></i>
+              <i id="star" class="fa-solid fa-star"></i>
+              <i id="star" class="fa-solid fa-star"></i>
+              <i id="star" class="fa-solid fa-star"></i>
             </div>
+            <p class="productDecribion"></p>
           </div>
+          <div class="productPrice">
+            <p class="orignalPrice"></p>
+            <p class="selaingPrice" style="text-decoration: line-through"></p>
+          </div>
+          <div class="quantityStock">
+            <p>
+              Total Stocks Available : <span class="availableStock"></span>
+            </p>
+            <div class="quantitySec">
+              <p>Quantity(Pieces)</p>
+              <div class="priceButton">
+                <button class="add">+</button>
+                <p class="value">0</p>
+                <button class="subtract">-</button>
+              </div>
+            </div>
 
-          <button class="addtocartBtn">Add To Cart</button>
+            <button class="addtocartBtn">Add To Cart</button>
+          </div>
         </div>
-      </div>
       </template>
     </div>
 
@@ -130,6 +131,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>

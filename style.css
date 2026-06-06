@@ -481,6 +481,13 @@ body {
   -o-border-radius: 10px;
 }
 
+/* ? Product Container */
+.productContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
 /* ? Product Section */
 .productCart{
   margin-top: 4rem;
@@ -501,6 +508,7 @@ body {
   -moz-transition: all 0.4s linear;
   -ms-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
+ 
 }
 
 .productCart:hover{
@@ -516,7 +524,7 @@ body {
   background-color: red;
 }
 
-.productName{
+.productCategory{
   width: fit-content;
   font-size: 16px;
   border: 1px solid white;
@@ -533,6 +541,12 @@ body {
 
 .imageContainer{
   margin-bottom: 1rem;
+}
+
+.imageContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .productInformation{
@@ -574,7 +588,7 @@ body {
   font-size: 20px;
 }
 
-.priceButton .price{
+.priceButton .value{
   font-size: 30px;
 }
 
@@ -585,7 +599,7 @@ body {
 
 .addtocartBtn{
   padding: 8px 20px;
-  background-color: #d6ff41;
+  background-color: white;
   outline: none;
   border: none;
   font-size: 20px;
@@ -595,4 +609,13 @@ body {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.addtocartBtn:hover{
+  background-color: #d6ff41;
 }
