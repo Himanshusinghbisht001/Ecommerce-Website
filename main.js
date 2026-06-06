@@ -58,3 +58,4 @@ import { showProductConainer } from "./homeProductCards";
 
 //? call the to display all the products as a cart :-
 showProductConainer(products);
+

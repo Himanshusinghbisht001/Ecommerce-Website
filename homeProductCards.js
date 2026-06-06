@@ -1,3 +1,5 @@
+import { homeQuantityToggle } from "./homeQuantityToggle";
+
 const productTemplate = document.querySelector(".productTemplate");
 const productContainer = document.querySelector(".productContainer");
 
@@ -13,7 +15,10 @@ export const showProductConainer = (products) => {
     // ? Colne all the data from the templeate...
     const productClone = productTemplate.content.cloneNode(true);
 
-    // ? All the Data from the Templeate
+    // ? It apply all unique vale of id in all products :- 
+    productClone.querySelector("#cardValue").setAttribute("id" , `card${id}`)
+
+    // ? All the Data from the Templeate    
     productClone.querySelector(".productCategory").textContent = category;
     productClone.querySelector(".productImage").src = image;
     productClone.querySelector(".productName").textContent = name;
@@ -23,7 +28,11 @@ export const showProductConainer = (products) => {
     productClone.querySelector(".availableStock").textContent = stock;
     productClone.querySelector(".availableStock").textContent = stock;
 
+    productClone.querySelector(".priceButton").addEventListener("click" , (event) => {
+        homeQuantityToggle(event , id , stock);
+    });
 
     productContainer.append(productClone);
   });
 };
+
