@@ -681,5 +681,132 @@ body {
   color: royalblue;
   font-size: 60px;
   margin: 2rem 4rem;
- 
+}
+
+/* ? PAGE 4  */
+.page4{
+  padding: 1rem 2rem;
+  min-height: 170vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.textContainer h1{
+  font-size: 50px;
+}
+
+.textContainer p{
+margin-top: 1rem;
+font-size: 22px;
+}
+
+.page4BoxContainer{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.page4Box{
+  width: 400px;
+  height: 600px;
+}
+
+.page4Box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.column-1{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.column-3{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;  
+}
+
+.first{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 1rem;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem  
+}
+
+.number{
+  font-size: 38px;
+}
+
+.heading{
+ font-size: 30px; 
+ color: #d6ff41;
+}
+
+.info{
+  font-size: 20px;
+}
+
+/* ? PAGE 5 */
+.page5{
+  min-height: 50vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.section-footer{
+padding: 4rem 3rem;
+background-color: rgb(39, 38, 38);
+color: white;
+}
+
+.footer-container.container{
+display: flex;
+gap: 1rem;
+}
+
+.content_1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content_1 img{
+    height: 50px;
+    width: 150px;
+}
+
+.content_1 .card{
+    width: 100%;
+}
+
+.content_2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content_2 .link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content_2 .link a{
+    text-decoration: none;
+    color: blue;
 }
