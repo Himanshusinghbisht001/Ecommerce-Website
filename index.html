@@ -35,8 +35,8 @@
             <a class="navOption" href="#">ABOUT</a>
             <a class="navOption" href="#">CONTACT</a>
             <a class="navOption" href="#"
-              ><i class="fa-solid fa-cart-shopping"> <span>0</span></i
-            ></a>
+              ><i class="fa-solid fa-cart-shopping"> <span>0</span></i></a
+            >
           </nav>
         </div>
       </div>
@@ -47,13 +47,18 @@
       <div class="mainPageContainer">
         <div class="mainLeft">
           <div class="mainLeftHeading">
-            <p>Explore the Latest in <span style="color: #d6ff41;"> Tech </span>Industries</p>
+            <p>
+              Explore the Latest in
+              <span style="color: #d6ff41"> Tech </span>Industries
+            </p>
             <h1>Your Destination</h1>
             <h1>for Cutting-Edge</h1>
             <h1>Gadgets!</h1>
           </div>
 
-          <a class="shopPage" href="#">SHOP NOW <i class="fa-solid fa-arrow-trend-up"></i></a>
+          <a class="shopPage" href="#"
+            >SHOP NOW <i class="fa-solid fa-arrow-trend-up"></i
+          ></a>
         </div>
         <div class="mainRight">
           <img src="./public/download__1_-removebg-preview.png" alt="" />
@@ -61,8 +66,70 @@
       </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js" integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ? Page 2 -->
+    <div class="page_two">
+      <div class="page_twoTextContainer">
+        <h1>Featured Products</h1>
+        <a class="seeProduct" href="#"> See All Products</a>
+      </div>
+
+      <!--? Productor Container -->
+      <section class="prosuctSection">
+        <div class="productContainer"></div>
+      </section>
+
+      <!-- ? Product Template -->
+      <template class="productTemplate">
+      <div class="productCart">
+        <p class="productName"></p>
+        <div class="imageContainer"></div>
+        <div class="productInformation">
+          <h2></h2>
+          <div class="productStar">
+            <i id="star" class="fa-solid fa-star"></i>
+            <i id="star" class="fa-solid fa-star"></i>
+            <i id="star" class="fa-solid fa-star"></i>
+            <i id="star" class="fa-solid fa-star"></i>
+            <i id="star" class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD,
+            and a 14-inch FHD display.
+          </p>
+        </div>
+        <div class="productPrice">
+          <p class="orignalPrice"></p>
+          <p class="selaingPrice" style="text-decoration: line-through;"></p>
+        </div>
+        <div class="quantityStock">
+          <p>Total Stocks Available : <span class="availableStock">10</span></p>
+          <div class="quantitySec">
+            <p>Quantity(Pieces)</p>
+            <div class="priceButton">
+              <button class="add">+</button>
+              <p class="price">0</p>
+              <button class="subtract">-</button>
+            </div>
+          </div>
+
+          <button class="addtocartBtn">Add To Cart</button>
+        </div>
+      </div>
+      </template>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"
+      integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="main.js"></script>
   </body>
 </html>
